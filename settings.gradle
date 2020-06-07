@@ -1,0 +1,5 @@
+rootProject.name='CrazyAndroid'
+include ':app'
+include ':common'
+include ':app_studysample'
+include ':app_main'
