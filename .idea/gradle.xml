@@ -4,7 +4,6 @@
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
-<!--不委托gradle进行构建。现实效果也是加了这行配置之后就是jvm执行Java类的main方法了，而不是gradle当做task来执行了。-->
         <option name="delegatedBuild" value="false" />
         <option name="testRunner" value="PLATFORM" />
         <option name="distributionType" value="DEFAULT_WRAPPED" />
@@ -13,8 +12,8 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/app_demo" />
             <option value="$PROJECT_DIR$/app_main" />
-            <option value="$PROJECT_DIR$/app_studysample" />
             <option value="$PROJECT_DIR$/common" />
           </set>
         </option>
