@@ -1,0 +1,306 @@
+[
+    {
+        "merged": "E:\\data\\code\\self\\CrazyAndroid\\app_music\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_search_black_48dp.png.flat",
+        "source": "E:\\data\\code\\self\\CrazyAndroid\\app_music\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_search_black_48dp.png"
+    },
+    {
+        "merged": "E:\\data\\code\\self\\CrazyAndroid\\app_music\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_menu_black_48dp.png.flat",
+        "source": "E:\\data\\code\\self\\CrazyAndroid\\app_music\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_menu_black_48dp.png"
+    },
+    {
+        "merged": "E:\\data\\code\\self\\CrazyAndroid\\app_music\\build\\intermediates\\res\\merged\\debug\\xml_network_security_config.xml.flat",
+        "source": "E:\\data\\code\\self\\CrazyAndroid\\app_music\\src\\main\\res\\xml\\network_security_config.xml"
+    },
+    {
+        "merged": "E:\\data\\code\\self\\CrazyAndroid\\app_music\\build\\intermediates\\res\\merged\\debug\\layout-land_fragment_player.xml.flat",
+        "source": "E:\\data\\code\\self\\CrazyAndroid\\app_music\\src\\main\\res\\layout-land\\fragment_player.xml"
+    },
+    {
+        "merged": "E:\\data\\code\\self\\CrazyAndroid\\app_music\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "E:\\data\\code\\self\\CrazyAndroid\\app_music\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "E:\\data\\code\\self\\CrazyAndroid\\app_music\\build\\intermediates\\res\\merged\\debug\\layout_adapter_library.xml.flat",
+        "source": "E:\\data\\code\\self\\CrazyAndroid\\app_music\\src\\main\\res\\layout\\adapter_library.xml"
+    },
+    {
+        "merged": "E:\\data\\code\\self\\CrazyAndroid\\app_music\\build\\intermediates\\res\\merged\\debug\\navigation_nav_drawer.xml.flat",
+        "source": "E:\\data\\code\\self\\CrazyAndroid\\app_music\\src\\main\\res\\navigation\\nav_drawer.xml"
+    },
+    {
+        "merged": "E:\\data\\code\\self\\CrazyAndroid\\app_music\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_menu_black_48dp.png.flat",
+        "source": "E:\\data\\code\\self\\CrazyAndroid\\app_music\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_menu_black_48dp.png"
+    },
+    {
+        "merged": "E:\\data\\code\\self\\CrazyAndroid\\app_music\\build\\intermediates\\res\\merged\\debug\\anim_h_fragment_pop_exit.xml.flat",
+        "source": "E:\\data\\code\\self\\CrazyAndroid\\app_music\\src\\main\\res\\anim\\h_fragment_pop_exit.xml"
+    },
+    {
+        "merged": "E:\\data\\code\\self\\CrazyAndroid\\app_music\\build\\intermediates\\res\\merged\\debug\\navigation_nav_main.xml.flat",
+        "source": "E:\\data\\code\\self\\CrazyAndroid\\app_music\\src\\main\\res\\navigation\\nav_main.xml"
+    },
+    {
+        "merged": "E:\\data\\code\\self\\CrazyAndroid\\app_music\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "E:\\data\\code\\self\\CrazyAndroid\\app_music\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\data\\code\\self\\CrazyAndroid\\app_music\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_music_note_black_48dp.png.flat",
+        "source": "E:\\data\\code\\self\\CrazyAndroid\\app_music\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_music_note_black_48dp.png"
+    },
+    {
+        "merged": "E:\\data\\code\\self\\CrazyAndroid\\app_music\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_music_note_black_48dp.png.flat",
+        "source": "E:\\data\\code\\self\\CrazyAndroid\\app_music\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_music_note_black_48dp.png"
+    },
+    {
+        "merged": "E:\\data\\code\\self\\CrazyAndroid\\app_music\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_progress.png.flat",
+        "source": "E:\\data\\code\\self\\CrazyAndroid\\app_music\\src\\main\\res\\drawable-xxhdpi\\ic_progress.png"
+    },
+    {
+        "merged": "E:\\data\\code\\self\\CrazyAndroid\\app_music\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_next_dark.png.flat",
+        "source": "E:\\data\\code\\self\\CrazyAndroid\\app_music\\src\\main\\res\\drawable-xxhdpi\\ic_next_dark.png"
+    },
+    {
+        "merged": "E:\\data\\code\\self\\CrazyAndroid\\app_music\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_music_note_black_48dp.png.flat",
+        "source": "E:\\data\\code\\self\\CrazyAndroid\\app_music\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_music_note_black_48dp.png"
+    },
+    {
+        "merged": "E:\\data\\code\\self\\CrazyAndroid\\app_music\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_close_white.png.flat",
+        "source": "E:\\data\\code\\self\\CrazyAndroid\\app_music\\src\\main\\res\\drawable-xxhdpi\\ic_close_white.png"
+    },
+    {
+        "merged": "E:\\data\\code\\self\\CrazyAndroid\\app_music\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_menu_black_48dp.png.flat",
+        "source": "E:\\data\\code\\self\\CrazyAndroid\\app_music\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_menu_black_48dp.png"
+    },
+    {
+        "merged": "E:\\data\\code\\self\\CrazyAndroid\\app_music\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_launcher_background.xml.flat",
+        "source": "E:\\data\\code\\self\\CrazyAndroid\\app_music\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "E:\\data\\code\\self\\CrazyAndroid\\app_music\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "E:\\data\\code\\self\\CrazyAndroid\\app_music\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "E:\\data\\code\\self\\CrazyAndroid\\app_music\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher.png.flat",
+        "source": "E:\\data\\code\\self\\CrazyAndroid\\app_music\\src\\main\\res\\drawable-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\data\\code\\self\\CrazyAndroid\\app_music\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "E:\\data\\code\\self\\CrazyAndroid\\app_music\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "E:\\data\\code\\self\\CrazyAndroid\\app_music\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "E:\\data\\code\\self\\CrazyAndroid\\app_music\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "E:\\data\\code\\self\\CrazyAndroid\\app_music\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_menu_black_48dp.png.flat",
+        "source": "E:\\data\\code\\self\\CrazyAndroid\\app_music\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_menu_black_48dp.png"
+    },
+    {
+        "merged": "E:\\data\\code\\self\\CrazyAndroid\\app_music\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_previous_dark.png.flat",
+        "source": "E:\\data\\code\\self\\CrazyAndroid\\app_music\\src\\main\\res\\drawable-xxhdpi\\ic_previous_dark.png"
+    },
+    {
+        "merged": "E:\\data\\code\\self\\CrazyAndroid\\app_music\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_music_note_black_48dp.png.flat",
+        "source": "E:\\data\\code\\self\\CrazyAndroid\\app_music\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_music_note_black_48dp.png"
+    },
+    {
+        "merged": "E:\\data\\code\\self\\CrazyAndroid\\app_music\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "E:\\data\\code\\self\\CrazyAndroid\\app_music\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "E:\\data\\code\\self\\CrazyAndroid\\app_music\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "E:\\data\\code\\self\\CrazyAndroid\\app_music\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "E:\\data\\code\\self\\CrazyAndroid\\app_music\\build\\intermediates\\res\\merged\\debug\\layout_adapter_play_item.xml.flat",
+        "source": "E:\\data\\code\\self\\CrazyAndroid\\app_music\\src\\main\\res\\layout\\adapter_play_item.xml"
+    },
+    {
+        "merged": "E:\\data\\code\\self\\CrazyAndroid\\app_music\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_search_black_48dp.png.flat",
+        "source": "E:\\data\\code\\self\\CrazyAndroid\\app_music\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_search_black_48dp.png"
+    },
+    {
+        "merged": "E:\\data\\code\\self\\CrazyAndroid\\app_music\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "E:\\data\\code\\self\\CrazyAndroid\\app_music\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\data\\code\\self\\CrazyAndroid\\app_music\\build\\intermediates\\res\\merged\\debug\\drawable_bar_selector_white.xml.flat",
+        "source": "E:\\data\\code\\self\\CrazyAndroid\\app_music\\src\\main\\res\\drawable\\bar_selector_white.xml"
+    },
+    {
+        "merged": "E:\\data\\code\\self\\CrazyAndroid\\app_music\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_launcher_background.png.flat",
+        "source": "E:\\data\\code\\self\\CrazyAndroid\\app_music\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "E:\\data\\code\\self\\CrazyAndroid\\app_music\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_search_black_48dp.png.flat",
+        "source": "E:\\data\\code\\self\\CrazyAndroid\\app_music\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_search_black_48dp.png"
+    },
+    {
+        "merged": "E:\\data\\code\\self\\CrazyAndroid\\app_music\\build\\intermediates\\res\\merged\\debug\\layout_notify_player_big.xml.flat",
+        "source": "E:\\data\\code\\self\\CrazyAndroid\\app_music\\src\\main\\res\\layout\\notify_player_big.xml"
+    },
+    {
+        "merged": "E:\\data\\code\\self\\CrazyAndroid\\app_music\\build\\intermediates\\res\\merged\\debug\\layout-land_fragment_main.xml.flat",
+        "source": "E:\\data\\code\\self\\CrazyAndroid\\app_music\\src\\main\\res\\layout-land\\fragment_main.xml"
+    },
+    {
+        "merged": "E:\\data\\code\\self\\CrazyAndroid\\app_music\\build\\intermediates\\res\\merged\\debug\\layout_fragment_login.xml.flat",
+        "source": "E:\\data\\code\\self\\CrazyAndroid\\app_music\\src\\main\\res\\layout\\fragment_login.xml"
+    },
+    {
+        "merged": "E:\\data\\code\\self\\CrazyAndroid\\app_music\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_music_note_black_48dp.xml.flat",
+        "source": "E:\\data\\code\\self\\CrazyAndroid\\app_music\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_music_note_black_48dp.xml"
+    },
+    {
+        "merged": "E:\\data\\code\\self\\CrazyAndroid\\app_music\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher_background.png.flat",
+        "source": "E:\\data\\code\\self\\CrazyAndroid\\app_music\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "E:\\data\\code\\self\\CrazyAndroid\\app_music\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher_background.png.flat",
+        "source": "E:\\data\\code\\self\\CrazyAndroid\\app_music\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "E:\\data\\code\\self\\CrazyAndroid\\app_music\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_menu_black_48dp.png.flat",
+        "source": "E:\\data\\code\\self\\CrazyAndroid\\app_music\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_menu_black_48dp.png"
+    },
+    {
+        "merged": "E:\\data\\code\\self\\CrazyAndroid\\app_music\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_search_black_48dp.png.flat",
+        "source": "E:\\data\\code\\self\\CrazyAndroid\\app_music\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_search_black_48dp.png"
+    },
+    {
+        "merged": "E:\\data\\code\\self\\CrazyAndroid\\app_music\\build\\intermediates\\res\\merged\\debug\\layout_fragment_search.xml.flat",
+        "source": "E:\\data\\code\\self\\CrazyAndroid\\app_music\\src\\main\\res\\layout\\fragment_search.xml"
+    },
+    {
+        "merged": "E:\\data\\code\\self\\CrazyAndroid\\app_music\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_panel_back.png.flat",
+        "source": "E:\\data\\code\\self\\CrazyAndroid\\app_music\\src\\main\\res\\drawable-xxhdpi\\ic_panel_back.png"
+    },
+    {
+        "merged": "E:\\data\\code\\self\\CrazyAndroid\\app_music\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_action_play.png.flat",
+        "source": "E:\\data\\code\\self\\CrazyAndroid\\app_music\\src\\main\\res\\drawable-xxhdpi\\ic_action_play.png"
+    },
+    {
+        "merged": "E:\\data\\code\\self\\CrazyAndroid\\app_music\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_launcher.png.flat",
+        "source": "E:\\data\\code\\self\\CrazyAndroid\\app_music\\src\\main\\res\\drawable-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\data\\code\\self\\CrazyAndroid\\app_music\\build\\intermediates\\res\\merged\\debug\\anim_toolbar_slide_in.xml.flat",
+        "source": "E:\\data\\code\\self\\CrazyAndroid\\app_music\\src\\main\\res\\anim\\toolbar_slide_in.xml"
+    },
+    {
+        "merged": "E:\\data\\code\\self\\CrazyAndroid\\app_music\\build\\intermediates\\res\\merged\\debug\\drawable_progressbar_color.xml.flat",
+        "source": "E:\\data\\code\\self\\CrazyAndroid\\app_music\\src\\main\\res\\drawable\\progressbar_color.xml"
+    },
+    {
+        "merged": "E:\\data\\code\\self\\CrazyAndroid\\app_music\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "E:\\data\\code\\self\\CrazyAndroid\\app_music\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "E:\\data\\code\\self\\CrazyAndroid\\app_music\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_action_pause.png.flat",
+        "source": "E:\\data\\code\\self\\CrazyAndroid\\app_music\\src\\main\\res\\drawable-xxhdpi\\ic_action_pause.png"
+    },
+    {
+        "merged": "E:\\data\\code\\self\\CrazyAndroid\\app_music\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_player.png.flat",
+        "source": "E:\\data\\code\\self\\CrazyAndroid\\app_music\\src\\main\\res\\drawable-xxhdpi\\ic_player.png"
+    },
+    {
+        "merged": "E:\\data\\code\\self\\CrazyAndroid\\app_music\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_launcher_background.png.flat",
+        "source": "E:\\data\\code\\self\\CrazyAndroid\\app_music\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "E:\\data\\code\\self\\CrazyAndroid\\app_music\\build\\intermediates\\res\\merged\\debug\\layout_fragment_drawer.xml.flat",
+        "source": "E:\\data\\code\\self\\CrazyAndroid\\app_music\\src\\main\\res\\layout\\fragment_drawer.xml"
+    },
+    {
+        "merged": "E:\\data\\code\\self\\CrazyAndroid\\app_music\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_launcher.png.flat",
+        "source": "E:\\data\\code\\self\\CrazyAndroid\\app_music\\src\\main\\res\\drawable-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\data\\code\\self\\CrazyAndroid\\app_music\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_music_note_black_48dp.png.flat",
+        "source": "E:\\data\\code\\self\\CrazyAndroid\\app_music\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_music_note_black_48dp.png"
+    },
+    {
+        "merged": "E:\\data\\code\\self\\CrazyAndroid\\app_music\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_menu_black_48dp.png.flat",
+        "source": "E:\\data\\code\\self\\CrazyAndroid\\app_music\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_menu_black_48dp.png"
+    },
+    {
+        "merged": "E:\\data\\code\\self\\CrazyAndroid\\app_music\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_music_note_black_48dp.png.flat",
+        "source": "E:\\data\\code\\self\\CrazyAndroid\\app_music\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_music_note_black_48dp.png"
+    },
+    {
+        "merged": "E:\\data\\code\\self\\CrazyAndroid\\app_music\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_launcher_background.png.flat",
+        "source": "E:\\data\\code\\self\\CrazyAndroid\\app_music\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "E:\\data\\code\\self\\CrazyAndroid\\app_music\\build\\intermediates\\res\\merged\\debug\\layout-land_activity_main.xml.flat",
+        "source": "E:\\data\\code\\self\\CrazyAndroid\\app_music\\src\\main\\res\\layout-land\\activity_main.xml"
+    },
+    {
+        "merged": "E:\\data\\code\\self\\CrazyAndroid\\app_music\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_search_black_48dp.png.flat",
+        "source": "E:\\data\\code\\self\\CrazyAndroid\\app_music\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_search_black_48dp.png"
+    },
+    {
+        "merged": "E:\\data\\code\\self\\CrazyAndroid\\app_music\\build\\intermediates\\res\\merged\\debug\\navigation_nav_slide.xml.flat",
+        "source": "E:\\data\\code\\self\\CrazyAndroid\\app_music\\src\\main\\res\\navigation\\nav_slide.xml"
+    },
+    {
+        "merged": "E:\\data\\code\\self\\CrazyAndroid\\app_music\\build\\intermediates\\res\\merged\\debug\\drawable_bg_home.png.flat",
+        "source": "E:\\data\\code\\self\\CrazyAndroid\\app_music\\src\\main\\res\\drawable\\bg_home.png"
+    },
+    {
+        "merged": "E:\\data\\code\\self\\CrazyAndroid\\app_music\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_search_black_48dp.xml.flat",
+        "source": "E:\\data\\code\\self\\CrazyAndroid\\app_music\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_search_black_48dp.xml"
+    },
+    {
+        "merged": "E:\\data\\code\\self\\CrazyAndroid\\app_music\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "E:\\data\\code\\self\\CrazyAndroid\\app_music\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "E:\\data\\code\\self\\CrazyAndroid\\app_music\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_launcher_background.png.flat",
+        "source": "E:\\data\\code\\self\\CrazyAndroid\\app_music\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "E:\\data\\code\\self\\CrazyAndroid\\app_music\\build\\intermediates\\res\\merged\\debug\\layout_fragment_main.xml.flat",
+        "source": "E:\\data\\code\\self\\CrazyAndroid\\app_music\\src\\main\\res\\layout\\fragment_main.xml"
+    },
+    {
+        "merged": "E:\\data\\code\\self\\CrazyAndroid\\app_music\\build\\intermediates\\res\\merged\\debug\\drawable_loading_animation.xml.flat",
+        "source": "E:\\data\\code\\self\\CrazyAndroid\\app_music\\src\\main\\res\\drawable\\loading_animation.xml"
+    },
+    {
+        "merged": "E:\\data\\code\\self\\CrazyAndroid\\app_music\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_search_black_48dp.png.flat",
+        "source": "E:\\data\\code\\self\\CrazyAndroid\\app_music\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_search_black_48dp.png"
+    },
+    {
+        "merged": "E:\\data\\code\\self\\CrazyAndroid\\app_music\\build\\intermediates\\res\\merged\\debug\\anim_h_fragment_pop_enter.xml.flat",
+        "source": "E:\\data\\code\\self\\CrazyAndroid\\app_music\\src\\main\\res\\anim\\h_fragment_pop_enter.xml"
+    },
+    {
+        "merged": "E:\\data\\code\\self\\CrazyAndroid\\app_music\\build\\intermediates\\res\\merged\\debug\\anim_h_fragment_enter.xml.flat",
+        "source": "E:\\data\\code\\self\\CrazyAndroid\\app_music\\src\\main\\res\\anim\\h_fragment_enter.xml"
+    },
+    {
+        "merged": "E:\\data\\code\\self\\CrazyAndroid\\app_music\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_menu_black_48dp.xml.flat",
+        "source": "E:\\data\\code\\self\\CrazyAndroid\\app_music\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_menu_black_48dp.xml"
+    },
+    {
+        "merged": "E:\\data\\code\\self\\CrazyAndroid\\app_music\\build\\intermediates\\res\\merged\\debug\\layout_fragment_player.xml.flat",
+        "source": "E:\\data\\code\\self\\CrazyAndroid\\app_music\\src\\main\\res\\layout\\fragment_player.xml"
+    },
+    {
+        "merged": "E:\\data\\code\\self\\CrazyAndroid\\app_music\\build\\intermediates\\res\\merged\\debug\\anim_h_fragment_exit.xml.flat",
+        "source": "E:\\data\\code\\self\\CrazyAndroid\\app_music\\src\\main\\res\\anim\\h_fragment_exit.xml"
+    },
+    {
+        "merged": "E:\\data\\code\\self\\CrazyAndroid\\app_music\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_bg_album_default.png.flat",
+        "source": "E:\\data\\code\\self\\CrazyAndroid\\app_music\\src\\main\\res\\drawable-xxhdpi\\bg_album_default.png"
+    },
+    {
+        "merged": "E:\\data\\code\\self\\CrazyAndroid\\app_music\\build\\intermediates\\res\\merged\\debug\\layout_notify_player_small.xml.flat",
+        "source": "E:\\data\\code\\self\\CrazyAndroid\\app_music\\src\\main\\res\\layout\\notify_player_small.xml"
+    },
+    {
+        "merged": "E:\\data\\code\\self\\CrazyAndroid\\app_music\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "E:\\data\\code\\self\\CrazyAndroid\\app_music\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    }
+]

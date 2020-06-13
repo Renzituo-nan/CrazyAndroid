@@ -1,0 +1,283 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.kunminx.puremusic"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->E:\data\code\self\CrazyAndroid\app_music\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->E:\data\code\self\CrazyAndroid\app_music\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->E:\data\code\self\CrazyAndroid\app_music\src\main\AndroidManifest.xml:6:5-67
+11-->E:\data\code\self\CrazyAndroid\app_music\src\main\AndroidManifest.xml:6:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->E:\data\code\self\CrazyAndroid\app_music\src\main\AndroidManifest.xml:7:5-79
+12-->E:\data\code\self\CrazyAndroid\app_music\src\main\AndroidManifest.xml:7:22-76
+13    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+13-->E:\data\code\self\CrazyAndroid\app_music\src\main\AndroidManifest.xml:8:5-77
+13-->E:\data\code\self\CrazyAndroid\app_music\src\main\AndroidManifest.xml:8:22-74
+14    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+14-->[:common] E:\data\code\self\CrazyAndroid\common\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:5-75
+14-->[:common] E:\data\code\self\CrazyAndroid\common\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:22-72
+15    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES" />
+15-->[:common] E:\data\code\self\CrazyAndroid\common\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:5-84
+15-->[:common] E:\data\code\self\CrazyAndroid\common\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:22-81
+16    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /> <!-- 读取存储权限 -->
+16-->[:common] E:\data\code\self\CrazyAndroid\common\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:5-76
+16-->[:common] E:\data\code\self\CrazyAndroid\common\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:22-73
+17    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" /> <!-- 写存储权限，OSS需要 -->
+17-->[:common] E:\data\code\self\CrazyAndroid\common\build\intermediates\library_manifest\debug\AndroidManifest.xml:20:5-80
+17-->[:common] E:\data\code\self\CrazyAndroid\common\build\intermediates\library_manifest\debug\AndroidManifest.xml:20:22-77
+18    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /> <!-- 录音权限 -->
+18-->[:common] E:\data\code\self\CrazyAndroid\common\build\intermediates\library_manifest\debug\AndroidManifest.xml:22:5-81
+18-->[:common] E:\data\code\self\CrazyAndroid\common\build\intermediates\library_manifest\debug\AndroidManifest.xml:22:22-78
+19    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+19-->[:common] E:\data\code\self\CrazyAndroid\common\build\intermediates\library_manifest\debug\AndroidManifest.xml:24:5-71
+19-->[:common] E:\data\code\self\CrazyAndroid\common\build\intermediates\library_manifest\debug\AndroidManifest.xml:24:22-68
+20    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+20-->[:common] E:\data\code\self\CrazyAndroid\common\build\intermediates\library_manifest\debug\AndroidManifest.xml:22:5-81
+20-->[:common] E:\data\code\self\CrazyAndroid\common\build\intermediates\library_manifest\debug\AndroidManifest.xml:22:22-78
+21    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+21-->[:common] E:\data\code\self\CrazyAndroid\common\build\intermediates\library_manifest\debug\AndroidManifest.xml:27:5-75
+21-->[:common] E:\data\code\self\CrazyAndroid\common\build\intermediates\library_manifest\debug\AndroidManifest.xml:27:22-72
+22    <uses-permission android:name="android.permission.READ_CONTACTS" />
+22-->[:common] E:\data\code\self\CrazyAndroid\common\build\intermediates\library_manifest\debug\AndroidManifest.xml:28:5-72
+22-->[:common] E:\data\code\self\CrazyAndroid\common\build\intermediates\library_manifest\debug\AndroidManifest.xml:28:22-69
+23    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+23-->[:common] E:\data\code\self\CrazyAndroid\common\build\intermediates\library_manifest\debug\AndroidManifest.xml:29:5-81
+23-->[:common] E:\data\code\self\CrazyAndroid\common\build\intermediates\library_manifest\debug\AndroidManifest.xml:29:22-78
+24    <uses-permission android:name="android.permission.SEND_SMS" />
+24-->[:common] E:\data\code\self\CrazyAndroid\common\build\intermediates\library_manifest\debug\AndroidManifest.xml:30:5-67
+24-->[:common] E:\data\code\self\CrazyAndroid\common\build\intermediates\library_manifest\debug\AndroidManifest.xml:30:22-64
+25    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+25-->[:common] E:\data\code\self\CrazyAndroid\common\build\intermediates\library_manifest\debug\AndroidManifest.xml:31:5-70
+25-->[:common] E:\data\code\self\CrazyAndroid\common\build\intermediates\library_manifest\debug\AndroidManifest.xml:31:22-67
+26    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" /> <!-- //获取准确GPS坐标的权限 -->
+26-->[:common] E:\data\code\self\CrazyAndroid\common\build\intermediates\library_manifest\debug\AndroidManifest.xml:32:5-79
+26-->[:common] E:\data\code\self\CrazyAndroid\common\build\intermediates\library_manifest\debug\AndroidManifest.xml:32:22-76
+27    <uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION" /> <!-- //允许模拟器模拟位置坐标的权限 -->
+27-->[:common] E:\data\code\self\CrazyAndroid\common\build\intermediates\library_manifest\debug\AndroidManifest.xml:33:5-79
+27-->[:common] E:\data\code\self\CrazyAndroid\common\build\intermediates\library_manifest\debug\AndroidManifest.xml:33:22-76
+28    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" /> <!-- //获取粗略坐标的权限(网络定位时使用) -->
+28-->[:common] E:\data\code\self\CrazyAndroid\common\build\intermediates\library_manifest\debug\AndroidManifest.xml:34:5-81
+28-->[:common] E:\data\code\self\CrazyAndroid\common\build\intermediates\library_manifest\debug\AndroidManifest.xml:34:22-78
+29    <uses-permission android:name="android.permission.VIBRATE" /> <!-- 在窗体上挂在view的权限 -->
+29-->[:common] E:\data\code\self\CrazyAndroid\common\build\intermediates\library_manifest\debug\AndroidManifest.xml:35:5-66
+29-->[:common] E:\data\code\self\CrazyAndroid\common\build\intermediates\library_manifest\debug\AndroidManifest.xml:35:22-63
+30    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" /> <!-- 去电广播监听的权限 -->
+30-->[:common] E:\data\code\self\CrazyAndroid\common\build\intermediates\library_manifest\debug\AndroidManifest.xml:37:5-78
+30-->[:common] E:\data\code\self\CrazyAndroid\common\build\intermediates\library_manifest\debug\AndroidManifest.xml:37:22-75
+31    <uses-permission android:name="android.permission.PROCESS_OUTGOING_CALLS" /> <!-- 拦截电话需要用到的权限 -->
+31-->[:common] E:\data\code\self\CrazyAndroid\common\build\intermediates\library_manifest\debug\AndroidManifest.xml:39:5-81
+31-->[:common] E:\data\code\self\CrazyAndroid\common\build\intermediates\library_manifest\debug\AndroidManifest.xml:39:22-78
+32    <uses-permission android:name="android.permission.CALL_PHONE" />
+32-->[:common] E:\data\code\self\CrazyAndroid\common\build\intermediates\library_manifest\debug\AndroidManifest.xml:41:5-69
+32-->[:common] E:\data\code\self\CrazyAndroid\common\build\intermediates\library_manifest\debug\AndroidManifest.xml:41:22-66
+33    <uses-permission android:name="android.permission.READ_CALL_LOG" />
+33-->[:common] E:\data\code\self\CrazyAndroid\common\build\intermediates\library_manifest\debug\AndroidManifest.xml:42:5-72
+33-->[:common] E:\data\code\self\CrazyAndroid\common\build\intermediates\library_manifest\debug\AndroidManifest.xml:42:22-69
+34    <uses-permission android:name="android.permission.WRITE_CALL_LOG" />
+34-->[:common] E:\data\code\self\CrazyAndroid\common\build\intermediates\library_manifest\debug\AndroidManifest.xml:43:5-73
+34-->[:common] E:\data\code\self\CrazyAndroid\common\build\intermediates\library_manifest\debug\AndroidManifest.xml:43:22-70
+35    <uses-permission android:name="android.permission.READ_SMS" />
+35-->[:common] E:\data\code\self\CrazyAndroid\common\build\intermediates\library_manifest\debug\AndroidManifest.xml:44:5-67
+35-->[:common] E:\data\code\self\CrazyAndroid\common\build\intermediates\library_manifest\debug\AndroidManifest.xml:44:22-64
+36    <uses-permission android:name="android.permission.WRITE_SMS" /> <!-- 杀死后台进程的权限 -->
+36-->[:common] E:\data\code\self\CrazyAndroid\common\build\intermediates\library_manifest\debug\AndroidManifest.xml:45:5-68
+36-->[:common] E:\data\code\self\CrazyAndroid\common\build\intermediates\library_manifest\debug\AndroidManifest.xml:45:22-65
+37    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES" />
+37-->[:common] E:\data\code\self\CrazyAndroid\common\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:5-84
+37-->[:common] E:\data\code\self\CrazyAndroid\common\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:22-81
+38    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
+38-->[:common] E:\data\code\self\CrazyAndroid\common\build\intermediates\library_manifest\debug\AndroidManifest.xml:48:5-88
+38-->[:common] E:\data\code\self\CrazyAndroid\common\build\intermediates\library_manifest\debug\AndroidManifest.xml:48:22-85
+39    <uses-permission android:name="android.permission.GET_TASKS" />
+39-->[:common] E:\data\code\self\CrazyAndroid\common\build\intermediates\library_manifest\debug\AndroidManifest.xml:49:5-68
+39-->[:common] E:\data\code\self\CrazyAndroid\common\build\intermediates\library_manifest\debug\AndroidManifest.xml:49:22-65
+40    <uses-permission android:name="android.permission.GET_PACKAGE_SIZE" />
+40-->[:common] E:\data\code\self\CrazyAndroid\common\build\intermediates\library_manifest\debug\AndroidManifest.xml:50:5-75
+40-->[:common] E:\data\code\self\CrazyAndroid\common\build\intermediates\library_manifest\debug\AndroidManifest.xml:50:22-72
+41    <uses-permission android:name="android.permission.CLEAR_APP_CACHE" />
+41-->[:common] E:\data\code\self\CrazyAndroid\common\build\intermediates\library_manifest\debug\AndroidManifest.xml:51:5-74
+41-->[:common] E:\data\code\self\CrazyAndroid\common\build\intermediates\library_manifest\debug\AndroidManifest.xml:51:22-71
+42    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+42-->[:common] E:\data\code\self\CrazyAndroid\common\build\intermediates\library_manifest\debug\AndroidManifest.xml:27:5-75
+42-->[:common] E:\data\code\self\CrazyAndroid\common\build\intermediates\library_manifest\debug\AndroidManifest.xml:27:22-72
+43    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+43-->[:common] E:\data\code\self\CrazyAndroid\common\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:5-76
+43-->[:common] E:\data\code\self\CrazyAndroid\common\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:22-73
+44    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+44-->[:common] E:\data\code\self\CrazyAndroid\common\build\intermediates\library_manifest\debug\AndroidManifest.xml:22:5-81
+44-->[:common] E:\data\code\self\CrazyAndroid\common\build\intermediates\library_manifest\debug\AndroidManifest.xml:22:22-78
+45    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" /> <!-- 以下为可选权限 -->
+45-->[:common] E:\data\code\self\CrazyAndroid\common\build\intermediates\library_manifest\debug\AndroidManifest.xml:37:5-78
+45-->[:common] E:\data\code\self\CrazyAndroid\common\build\intermediates\library_manifest\debug\AndroidManifest.xml:37:22-75
+46    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
+46-->[:common] E:\data\code\self\CrazyAndroid\common\build\intermediates\library_manifest\debug\AndroidManifest.xml:48:5-88
+46-->[:common] E:\data\code\self\CrazyAndroid\common\build\intermediates\library_manifest\debug\AndroidManifest.xml:48:22-85
+47    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+47-->[:common] E:\data\code\self\CrazyAndroid\common\build\intermediates\library_manifest\debug\AndroidManifest.xml:32:5-79
+47-->[:common] E:\data\code\self\CrazyAndroid\common\build\intermediates\library_manifest\debug\AndroidManifest.xml:32:22-76
+48    <uses-permission android:name="android.permission.REORDER_TASKS" />
+48-->[androidx.test:core:1.2.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\47ae3a567c812ebeeedf3a0dd4293fad\jetified-core-1.2.0\AndroidManifest.xml:24:5-72
+48-->[androidx.test:core:1.2.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\47ae3a567c812ebeeedf3a0dd4293fad\jetified-core-1.2.0\AndroidManifest.xml:24:22-69
+49
+50    <application
+50-->E:\data\code\self\CrazyAndroid\app_music\src\main\AndroidManifest.xml:10:5-48:19
+51        android:name="com.kunminx.puremusic.App"
+51-->E:\data\code\self\CrazyAndroid\app_music\src\main\AndroidManifest.xml:11:9-28
+52        android:allowBackup="true"
+52-->E:\data\code\self\CrazyAndroid\app_music\src\main\AndroidManifest.xml:12:9-35
+53        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+53-->[androidx.core:core:1.3.0-alpha02] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\dab136c2ef64d5d6d62c1f6603d94219\core-1.3.0-alpha02\AndroidManifest.xml:24:18-86
+54        android:debuggable="true"
+55        android:icon="@drawable/ic_launcher"
+55-->E:\data\code\self\CrazyAndroid\app_music\src\main\AndroidManifest.xml:13:9-45
+56        android:label="@string/app_name"
+56-->E:\data\code\self\CrazyAndroid\app_music\src\main\AndroidManifest.xml:14:9-41
+57        android:networkSecurityConfig="@xml/network_security_config"
+57-->E:\data\code\self\CrazyAndroid\app_music\src\main\AndroidManifest.xml:15:9-69
+58        android:roundIcon="@drawable/ic_launcher"
+58-->E:\data\code\self\CrazyAndroid\app_music\src\main\AndroidManifest.xml:16:9-50
+59        android:supportsRtl="true"
+59-->E:\data\code\self\CrazyAndroid\app_music\src\main\AndroidManifest.xml:17:9-35
+60        android:testOnly="true"
+61        android:theme="@style/AppTheme"
+61-->E:\data\code\self\CrazyAndroid\app_music\src\main\AndroidManifest.xml:18:9-40
+62        android:usesCleartextTraffic="true" >
+62-->E:\data\code\self\CrazyAndroid\app_music\src\main\AndroidManifest.xml:19:9-44
+63        <activity android:name="com.kunminx.puremusic.MainActivity" >
+63-->E:\data\code\self\CrazyAndroid\app_music\src\main\AndroidManifest.xml:23:9-30:20
+63-->E:\data\code\self\CrazyAndroid\app_music\src\main\AndroidManifest.xml:24:13-41
+64            <intent-filter>
+64-->E:\data\code\self\CrazyAndroid\app_music\src\main\AndroidManifest.xml:25:13-29:29
+65                <action android:name="android.intent.action.MAIN" />
+65-->E:\data\code\self\CrazyAndroid\app_music\src\main\AndroidManifest.xml:26:17-69
+65-->E:\data\code\self\CrazyAndroid\app_music\src\main\AndroidManifest.xml:26:25-66
+66
+67                <category android:name="android.intent.category.LAUNCHER" />
+67-->E:\data\code\self\CrazyAndroid\app_music\src\main\AndroidManifest.xml:28:17-77
+67-->E:\data\code\self\CrazyAndroid\app_music\src\main\AndroidManifest.xml:28:27-74
+68            </intent-filter>
+69        </activity>
+70
+71        <service android:name="com.kunminx.puremusic.player.notification.PlayerService" />
+71-->E:\data\code\self\CrazyAndroid\app_music\src\main\AndroidManifest.xml:32:9-70
+71-->E:\data\code\self\CrazyAndroid\app_music\src\main\AndroidManifest.xml:32:18-67
+72
+73        <receiver android:name="com.kunminx.puremusic.player.notification.PlayerReceiver" >
+73-->E:\data\code\self\CrazyAndroid\app_music\src\main\AndroidManifest.xml:34:9-46:20
+73-->E:\data\code\self\CrazyAndroid\app_music\src\main\AndroidManifest.xml:35:13-63
+74            <intent-filter>
+74-->E:\data\code\self\CrazyAndroid\app_music\src\main\AndroidManifest.xml:37:13-45:29
+75                <action android:name="pure_music.kunminx.close" />
+75-->E:\data\code\self\CrazyAndroid\app_music\src\main\AndroidManifest.xml:38:17-67
+75-->E:\data\code\self\CrazyAndroid\app_music\src\main\AndroidManifest.xml:38:25-64
+76                <action android:name="pure_music.kunminx.pause" />
+76-->E:\data\code\self\CrazyAndroid\app_music\src\main\AndroidManifest.xml:39:17-67
+76-->E:\data\code\self\CrazyAndroid\app_music\src\main\AndroidManifest.xml:39:25-64
+77                <action android:name="pure_music.kunminx.next" />
+77-->E:\data\code\self\CrazyAndroid\app_music\src\main\AndroidManifest.xml:40:17-66
+77-->E:\data\code\self\CrazyAndroid\app_music\src\main\AndroidManifest.xml:40:25-63
+78                <action android:name="pure_music.kunminx.play" />
+78-->E:\data\code\self\CrazyAndroid\app_music\src\main\AndroidManifest.xml:41:17-66
+78-->E:\data\code\self\CrazyAndroid\app_music\src\main\AndroidManifest.xml:41:25-63
+79                <action android:name="pure_music.kunminx.previous" />
+79-->E:\data\code\self\CrazyAndroid\app_music\src\main\AndroidManifest.xml:42:17-70
+79-->E:\data\code\self\CrazyAndroid\app_music\src\main\AndroidManifest.xml:42:25-67
+80                <action android:name="android.intent.action.MEDIA_BUTTON" />
+80-->E:\data\code\self\CrazyAndroid\app_music\src\main\AndroidManifest.xml:43:17-77
+80-->E:\data\code\self\CrazyAndroid\app_music\src\main\AndroidManifest.xml:43:25-74
+81                <action android:name="android.media.AUDIO_BECOMING_NOISY" />
+81-->E:\data\code\self\CrazyAndroid\app_music\src\main\AndroidManifest.xml:44:17-77
+81-->E:\data\code\self\CrazyAndroid\app_music\src\main\AndroidManifest.xml:44:25-74
+82            </intent-filter>
+83        </receiver>
+84
+85        <provider
+85-->[:music_architecture] E:\data\code\self\CrazyAndroid\music_architecture\build\intermediates\library_manifest\debug\AndroidManifest.xml:30:9-38:20
+86            android:name="androidx.core.content.FileProvider"
+86-->[:music_architecture] E:\data\code\self\CrazyAndroid\music_architecture\build\intermediates\library_manifest\debug\AndroidManifest.xml:31:13-62
+87            android:authorities="com.kunminx.puremusic.fileprovider"
+87-->[:music_architecture] E:\data\code\self\CrazyAndroid\music_architecture\build\intermediates\library_manifest\debug\AndroidManifest.xml:32:13-64
+88            android:exported="false"
+88-->[:music_architecture] E:\data\code\self\CrazyAndroid\music_architecture\build\intermediates\library_manifest\debug\AndroidManifest.xml:33:13-37
+89            android:grantUriPermissions="true" >
+89-->[:music_architecture] E:\data\code\self\CrazyAndroid\music_architecture\build\intermediates\library_manifest\debug\AndroidManifest.xml:34:13-47
+90            <meta-data
+90-->[:music_architecture] E:\data\code\self\CrazyAndroid\music_architecture\build\intermediates\library_manifest\debug\AndroidManifest.xml:35:13-37:54
+91                android:name="android.support.FILE_PROVIDER_PATHS"
+91-->[:music_architecture] E:\data\code\self\CrazyAndroid\music_architecture\build\intermediates\library_manifest\debug\AndroidManifest.xml:36:17-67
+92                android:resource="@xml/file_paths" />
+92-->[:music_architecture] E:\data\code\self\CrazyAndroid\music_architecture\build\intermediates\library_manifest\debug\AndroidManifest.xml:37:17-51
+93        </provider>
+94
+95        <activity
+95-->[com.yanzhenjie:permission:1.1.2] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\85fd60e86c03060155e33babe7bce28a\jetified-permission-1.1.2\AndroidManifest.xml:25:9-30:75
+96            android:name="com.yanzhenjie.permission.PermissionActivity"
+96-->[com.yanzhenjie:permission:1.1.2] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\85fd60e86c03060155e33babe7bce28a\jetified-permission-1.1.2\AndroidManifest.xml:26:13-72
+97            android:configChanges="keyboardHidden|orientation|screenSize"
+97-->[com.yanzhenjie:permission:1.1.2] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\85fd60e86c03060155e33babe7bce28a\jetified-permission-1.1.2\AndroidManifest.xml:27:13-74
+98            android:launchMode="standard"
+98-->[com.yanzhenjie:permission:1.1.2] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\85fd60e86c03060155e33babe7bce28a\jetified-permission-1.1.2\AndroidManifest.xml:28:13-42
+99            android:theme="@style/permission_PermissionActivity"
+99-->[com.yanzhenjie:permission:1.1.2] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\85fd60e86c03060155e33babe7bce28a\jetified-permission-1.1.2\AndroidManifest.xml:29:13-65
+100            android:windowSoftInputMode="stateHidden|stateAlwaysHidden" />
+100-->[com.yanzhenjie:permission:1.1.2] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\85fd60e86c03060155e33babe7bce28a\jetified-permission-1.1.2\AndroidManifest.xml:30:13-72
+101
+102        <provider
+102-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\7ebb3658140bbb21c0d846e0a4bb977b\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
+103            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+103-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\7ebb3658140bbb21c0d846e0a4bb977b\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
+104            android:authorities="com.kunminx.puremusic.lifecycle-process"
+104-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\7ebb3658140bbb21c0d846e0a4bb977b\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
+105            android:exported="false"
+105-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\7ebb3658140bbb21c0d846e0a4bb977b\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
+106            android:multiprocess="true" />
+106-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\7ebb3658140bbb21c0d846e0a4bb977b\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
+107
+108        <activity
+108-->[androidx.test:core:1.2.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\47ae3a567c812ebeeedf3a0dd4293fad\jetified-core-1.2.0\AndroidManifest.xml:27:9-33:20
+109            android:name="androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity"
+109-->[androidx.test:core:1.2.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\47ae3a567c812ebeeedf3a0dd4293fad\jetified-core-1.2.0\AndroidManifest.xml:28:13-99
+110            android:theme="@android:style/Theme" >
+110-->[androidx.test:core:1.2.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\47ae3a567c812ebeeedf3a0dd4293fad\jetified-core-1.2.0\AndroidManifest.xml:29:13-49
+111            <intent-filter>
+111-->[androidx.test:core:1.2.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\47ae3a567c812ebeeedf3a0dd4293fad\jetified-core-1.2.0\AndroidManifest.xml:30:13-32:29
+112                <action android:name="android.intent.action.MAIN" />
+112-->E:\data\code\self\CrazyAndroid\app_music\src\main\AndroidManifest.xml:26:17-69
+112-->E:\data\code\self\CrazyAndroid\app_music\src\main\AndroidManifest.xml:26:25-66
+113            </intent-filter>
+114        </activity>
+115        <activity
+115-->[androidx.test:core:1.2.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\47ae3a567c812ebeeedf3a0dd4293fad\jetified-core-1.2.0\AndroidManifest.xml:34:9-40:20
+116            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity"
+116-->[androidx.test:core:1.2.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\47ae3a567c812ebeeedf3a0dd4293fad\jetified-core-1.2.0\AndroidManifest.xml:35:13-95
+117            android:theme="@android:style/Theme" >
+117-->[androidx.test:core:1.2.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\47ae3a567c812ebeeedf3a0dd4293fad\jetified-core-1.2.0\AndroidManifest.xml:36:13-49
+118            <intent-filter>
+118-->[androidx.test:core:1.2.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\47ae3a567c812ebeeedf3a0dd4293fad\jetified-core-1.2.0\AndroidManifest.xml:30:13-32:29
+119                <action android:name="android.intent.action.MAIN" />
+119-->E:\data\code\self\CrazyAndroid\app_music\src\main\AndroidManifest.xml:26:17-69
+119-->E:\data\code\self\CrazyAndroid\app_music\src\main\AndroidManifest.xml:26:25-66
+120            </intent-filter>
+121        </activity>
+122        <activity
+122-->[androidx.test:core:1.2.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\47ae3a567c812ebeeedf3a0dd4293fad\jetified-core-1.2.0\AndroidManifest.xml:41:9-47:20
+123            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity"
+123-->[androidx.test:core:1.2.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\47ae3a567c812ebeeedf3a0dd4293fad\jetified-core-1.2.0\AndroidManifest.xml:42:13-103
+124            android:theme="@android:style/Theme.Dialog" >
+124-->[androidx.test:core:1.2.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\47ae3a567c812ebeeedf3a0dd4293fad\jetified-core-1.2.0\AndroidManifest.xml:43:13-56
+125            <intent-filter>
+125-->[androidx.test:core:1.2.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\47ae3a567c812ebeeedf3a0dd4293fad\jetified-core-1.2.0\AndroidManifest.xml:30:13-32:29
+126                <action android:name="android.intent.action.MAIN" />
+126-->E:\data\code\self\CrazyAndroid\app_music\src\main\AndroidManifest.xml:26:17-69
+126-->E:\data\code\self\CrazyAndroid\app_music\src\main\AndroidManifest.xml:26:25-66
+127            </intent-filter>
+128        </activity>
+129    </application>
+130
+131</manifest>

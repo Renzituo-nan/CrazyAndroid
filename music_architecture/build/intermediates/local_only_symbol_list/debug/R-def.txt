@@ -1,0 +1,10 @@
+R_DEF: Internal format may change without notice
+local
+attr? defaultNavHost
+id nav_host_fragment_container
+string app_name
+string network_not_good
+styleable DialogFragmentNavigator android:name
+styleable FragmentNavigator android:name
+styleable NavHostFragment defaultNavHost
+xml file_paths

@@ -1,0 +1,36 @@
+{
+    "logs": [
+        {
+            "outputFile": "E:\\data\\code\\self\\CrazyAndroid\\app_im\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-zh\\values-zh.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\85fd60e86c03060155e33babe7bce28a\\jetified-permission-1.1.2\\res\\values-zh\\values-zh.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "55,104,219,319,368,419,489",
+                        "endColumns": "48,114,99,48,50,69,72",
+                        "endOffsets": "99,214,314,363,414,484,557"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\ad8a1aa4cc1251e1b9abbaa0434cc545\\jetified-ucrop-2.2.0-native\\res\\values-zh\\values-zh.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,109,163",
+                        "endColumns": "53,53,46",
+                        "endOffsets": "104,158,205"
+                    },
+                    "to": {
+                        "startLines": "9,10,11",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "562,616,670",
+                        "endColumns": "53,53,46",
+                        "endOffsets": "611,665,712"
+                    }
+                }
+            ]
+        }
+    ]
+}
