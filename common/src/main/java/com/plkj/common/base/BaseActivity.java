@@ -2,8 +2,10 @@ package com.plkj.common.base;
 
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Toast;
 
 import com.plkj.common.R;
+import com.plkj.common.utils.ToastUtils;
 import com.plkj.common.utils.Utils;
 
 import androidx.annotation.IdRes;
@@ -11,6 +13,8 @@ import androidx.annotation.Keep;
 import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
+import butterknife.ButterKnife;
+import butterknife.Unbinder;
 
 
 /**
@@ -29,17 +33,23 @@ public abstract class BaseActivity extends AppCompatActivity {
         return (T) super.findViewById(id);
     }
 
-
+    private Unbinder mUnbinder;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setContentView(getContentViewResId());
+        mUnbinder = ButterKnife.bind(this);
         ViewManager.getInstance().addActivity(this);
+        init(savedInstanceState);
     }
 
+    protected abstract int getContentViewResId();
+    public abstract void init(Bundle savedInstanceState);
 
     @Override
     protected void onDestroy() {
         super.onDestroy();
+        mUnbinder.unbind();
         ViewManager.getInstance().finishActivity(this);
     }
 
@@ -151,6 +161,4 @@ public abstract class BaseActivity extends AppCompatActivity {
             finish();
         }
     }
-
-
 }

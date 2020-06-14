@@ -1,33 +1,39 @@
 package com.plkj.crazydemo;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 
 import com.alibaba.android.arouter.facade.annotation.Route;
-import com.plkj.crazydemo.R;
-import com.plkj.crazydemo.socket.SocketActivity;
+import com.plkj.common.base.BaseActivity;
+import com.plkj.common.utils.ToastUtils;
 
-import androidx.appcompat.app.AppCompatActivity;
+import butterknife.BindView;
+import butterknife.OnClick;
 
 @Route(path = "/CrazyDemo/MainActivity")
-public class DemoMainActivity extends AppCompatActivity implements View.OnClickListener {
+public class DemoMainActivity extends BaseActivity {
+
+    @BindView(R.id.btnDemo)
+    Button btnSocket;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main_demo);
-        View btnSocket = findViewById(R.id.btnSocket);
-        btnSocket.setOnClickListener(this);
     }
 
     @Override
-    public void onClick(View v) {
-        switch (v.getId()){
-            case R.id.btnSocket:
-                startActivity(new Intent(DemoMainActivity.this, SocketActivity.class));
-                break;
-            default:
-                break;
-        }
+    protected int getContentViewResId() {
+        return R.layout.activity_main_demo;
+    }
+
+    @Override
+    public void init(Bundle savedInstanceState) {
+
+    }
+
+    @OnClick(R.id.btnDemo)
+    public void onViewClicked(View view) {
+        ToastUtils.showShortToast("跳转Demo");
     }
 }

@@ -1,7 +1,13 @@
 if (isModule.toBoolean()) {
     apply plugin: 'com.android.application'
+//    apply plugin: 'android-aspectjx'//AOP的使用
 } else {
     apply plugin: 'com.android.library'
+
+    //如果要在库中使用的话
+    //库中使用时请使用R2
+    //在库中switch-case判断控件id无法编译，请使用if-else
+    apply plugin: 'com.jakewharton.butterknife'
 }
 
 
@@ -31,6 +37,8 @@ android {
         ndk {
             moduleName "Hello"
         }
+        multiDexEnabled true
+
     }
 
     dataBinding {
@@ -66,7 +74,13 @@ android {
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'androidx.appcompat:appcompat:1.1.0'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
     annotationProcessor deps.arouter_compiler
     implementation project(path: ':common')
+
+    annotationProcessor deps.butterKnifeCompiler//需要使用的地方都要加，不然绑定失效
+
+//    implementation 'org.aspectj:aspectjrt:1.8.+'//AOP的使用
 
 }

@@ -76,4 +76,10 @@ dependencies {
     //annotationProcessor
     annotationProcessor deps.dagger.android_support_compiler
     annotationProcessor deps.dagger.compiler
+
+    api 'com.android.support:multidex:1.0.3'
+
+    //butterKnife
+    api 'com.jakewharton:butterknife:10.2.1'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:10.2.1'//需要使用的地方都要加，不然绑定失效
 }

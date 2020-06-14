@@ -33,6 +33,10 @@ versions.material_dialog = "0.9.6.0"
 versions.arouter_compiler = "1.1.4"
 versions.arouter_api = "1.3.1"
 versions.okHttp3 = "3.10.0"
+//butterKnife
+versions.butterKnife = "10.2.1"
+versions.butterKnifeCompiler = "10.2.1"
+versions.butterKnifePlugin = "10.2.1"
 
 
 
@@ -100,6 +104,10 @@ deps.logger = "com.orhanobut:logger:$versions.logger"
 deps.arouter_api = "com.alibaba:arouter-api:$versions.arouter_api"
 deps.arouter_compiler = "com.alibaba:arouter-compiler:$versions.arouter_compiler"
 deps.okHttp3="com.squareup.okhttp3:okhttp:$versions.okHttp3"
+
+deps.butterKnife="com.jakewharton:butterknife:$versions.butterKnife"
+deps.butterKnifeCompiler="com.jakewharton:butterknife-compiler:$versions.butterKnifeCompiler"
+deps.butterKnifePlugin="com.jakewharton:butterknife-gradle-plugin:$versions.butterKnifePlugin"
 
 ext.deps = deps
 
