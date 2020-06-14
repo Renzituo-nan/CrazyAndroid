@@ -16,9 +16,6 @@ import androidx.appcompat.widget.Toolbar;
 /**
  * <p>Activity基类 </p>
  *
- * @author 2016/12/2 17:33
- * @version V1.0.0
- * @name BaseActivity
  */
 @Keep
 public abstract class BaseActivity extends AppCompatActivity {

@@ -22,7 +22,7 @@ import androidx.multidex.MultiDex;
  * on 2020-05-22
  */
 @ReportsCrashes(
-        mailTo = "guiying705@Gmail.com",
+        mailTo = "renzituo-nan@foxmail.com",
         mode = ReportingInteractionMode.DIALOG,
         customReportContent = {
                 ReportField.APP_VERSION_NAME,

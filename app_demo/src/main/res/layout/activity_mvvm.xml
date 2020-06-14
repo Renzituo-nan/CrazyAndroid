@@ -6,13 +6,13 @@
     <data>
         <variable
             name="mvvmModel"
-            type="com.plkj.studysample.mvvm.MVVMViewModel" />
+            type="com.plkj.crazydemo.mvvm.MVVMViewModel" />
     </data>
 
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".mvvm.MVVMActivity">
+        tools:context="com.plkj.crazydemo.mvvm.MVVMActivity">
 
         <TextView
             android:layout_width="wrap_content"

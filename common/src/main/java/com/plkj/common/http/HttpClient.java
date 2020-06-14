@@ -3,6 +3,10 @@ package com.plkj.common.http;
 import android.text.TextUtils;
 
 
+import com.franmontiel.persistentcookiejar.ClearableCookieJar;
+import com.franmontiel.persistentcookiejar.PersistentCookieJar;
+import com.franmontiel.persistentcookiejar.cache.SetCookieCache;
+import com.franmontiel.persistentcookiejar.persistence.SharedPrefsCookiePersistor;
 import com.orhanobut.logger.Logger;
 import com.plkj.common.R;
 import com.plkj.common.utils.NetworkUtils;
@@ -64,14 +68,15 @@ public class HttpClient {
     }
 
     private HttpClient() {
-//        ClearableCookieJar cookieJar = new PersistentCookieJar(new SetCookieCache(), new SharedPrefsCookiePersistor(Utils.getContext()));
-        //HttpsUtil.SSLParams sslParams = HttpsUtil.getSslSocketFactory(Utils.getContext(), R.raw.cer,STORE_PASS , STORE_ALIAS);
+        ClearableCookieJar cookieJar = new PersistentCookieJar(new SetCookieCache(),
+                new SharedPrefsCookiePersistor(Utils.getContext()));
+//        HttpsUtils.SSLParams sslParams = HttpsUtils.getSslSocketFactory(Utils.getContext(), R.raw.cer,STORE_PASS , STORE_ALIAS);
         okHttpClient = new OkHttpClient.Builder()
                 .connectTimeout(10000L, TimeUnit.MILLISECONDS)
-                //.sslSocketFactory(sslParams.sSLSocketFactory, sslParams.trustManager)
-                // .hostnameVerifier(HttpsUtil.getHostnameVerifier())
+//                .sslSocketFactory(sslParams.sSLSocketFactory, sslParams.trustManager)
+//                 .hostnameVerifier(HttpsUtils.getHostnameVerifier())
                 .addInterceptor(new LoggerInterceptor(null, true))
-//                .cookieJar(cookieJar)
+                .cookieJar(cookieJar)
                 .build();
     }
 

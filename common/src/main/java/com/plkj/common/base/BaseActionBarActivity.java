@@ -12,10 +12,6 @@ import androidx.appcompat.app.ActionBar;
  * BaseActionBarActivity继承于BaseActivity，封装了actionBar的逻辑；
  * 继承于ActionBarBaseActivity的Activity都将默认带有ActionBar，并且只能使用AppTheme主题；
  * 只有那些ActionBar只带有Title和返回按钮的Activity方可继承
- *
- * @author 张华洋 2017/3/7 18:36
- * @version V1.2.0
- * @name BaseActionBarActivity
  */
 @Keep
 public abstract class BaseActionBarActivity extends BaseActivity {

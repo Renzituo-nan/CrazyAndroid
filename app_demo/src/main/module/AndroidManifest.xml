@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.plkj.studysample">
+    package="com.plkj.crazydemo">
 
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.BLUETOOTH" />
@@ -8,17 +8,17 @@
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
-        android:name="debug.StudySampleApplication"
+        android:name="debug.DemoApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".socket.SocketActivity"/>
+        <activity android:name=".socket.SocketActivity" />
         <activity android:name=".lot.gps.GPSActivity" />
         <activity android:name=".lot.bluetooth.BluetoothActivity" />
         <activity android:name=".lot.sensor.SensorActivity" />
-        <activity android:name=".StudySampleMainActivity">
+        <activity android:name=".DemoMainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

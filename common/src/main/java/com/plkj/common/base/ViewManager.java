@@ -13,9 +13,6 @@ import androidx.annotation.Keep;
 /**
  * <p></p>
  *
- * @author 张华洋 2017/9/26 22:26
- * @version V1.1
- * @name ViewManager
  */
 @Keep
 public class ViewManager {

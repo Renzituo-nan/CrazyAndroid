@@ -41,8 +41,6 @@ import androidx.annotation.RawRes;
 /**
  * <p>Https证书校验工具类</p>
  *
- * @author 张华洋 2017/5/11 16:14
- * @version V1.2.0
  * @name HttpsUtils
  */
 public class HttpsUtils {

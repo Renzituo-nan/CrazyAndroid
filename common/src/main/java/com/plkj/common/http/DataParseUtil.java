@@ -23,8 +23,6 @@ import java.util.List;
  * 支持XML,json对象,json数组
  * </p>
  *
- * @author 张华洋 2017/1/9 16:00
- * @version V1.2.0
  * @name DataParseUtil
  */
 

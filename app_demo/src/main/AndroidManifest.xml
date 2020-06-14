@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.plkj.studysample">
+    package="com.plkj.crazydemo">
 
-    <application
-        android:theme="@style/AppTheme">
-        <activity android:name=".StudySampleMainActivity"/>
-        <activity android:name=".mvc.MVCActivity"/>
-        <activity android:name=".mvp.MVPActivity"/>
-        <activity android:name=".mvvm.MVVMActivity"/>
+    <application android:theme="@style/AppTheme">
+        <activity android:name=".DemoMainActivity" />
+        <activity android:name=".mvc.MVCActivity" />
+        <activity android:name=".mvp.MVPActivity" />
+        <activity android:name=".mvvm.MVVMActivity" />
     </application>
 
 </manifest>

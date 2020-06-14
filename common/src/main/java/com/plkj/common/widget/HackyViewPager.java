@@ -9,8 +9,6 @@ import androidx.viewpager.widget.ViewPager;
 /**
  * <p> 解决图片缩放崩溃的问题</p>
  * @name HackyViewPager
- * @author 张华洋 2017/9/27 10:10
- * @version V1.1
  */
 public class HackyViewPager extends ViewPager {
 

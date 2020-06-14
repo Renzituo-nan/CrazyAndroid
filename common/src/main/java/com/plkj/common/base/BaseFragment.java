@@ -10,9 +10,6 @@ import androidx.fragment.app.Fragment;
 
 /**
  * <p>Fragment的基类</p>
- *
- * @author 张华洋
- * @name BaseFragment
  */
 @Keep
 public abstract class BaseFragment extends Fragment {

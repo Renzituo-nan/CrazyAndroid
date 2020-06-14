@@ -19,8 +19,8 @@ public class MainActivity extends AppCompatActivity {
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //跳转StudySample组件的MainActivity
-                ARouter.getInstance().build("/studySample/main").navigation();
+                //跳转CrazyDemo组件的MainActivity
+                ARouter.getInstance().build("/CrazyDemo/MainActivity").navigation();
             }
         });
     }

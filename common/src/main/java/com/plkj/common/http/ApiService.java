@@ -18,8 +18,6 @@ import retrofit2.http.Url;
  * 如果不需要Gson转换,那么就指定泛型为ResponseBody,只能是ResponseBody,子类都不行.
  * </p>
  *
- * @author 张华洋 2016/12/5 15:22
- * @version V1.0.0
  * @name HttpParams
  */
 public interface ApiService {

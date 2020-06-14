@@ -15,9 +15,6 @@ import java.util.List;
  * 组件的Application需置于java/debug文件夹中，不得放于主代码；
  * 组件中获取Context的方法必须为:Utils.getContext()，不允许其他写法；
  *
- * @author 2016/12/2 17:02
- * @version V1.0.0
- * @name BaseApplication
  */
 public class BaseApplication extends Application {
 
