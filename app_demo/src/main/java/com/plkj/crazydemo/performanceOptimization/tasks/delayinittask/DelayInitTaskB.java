@@ -1,4 +1,4 @@
-package com.plkj.crazydemo.performanceOptimization.launchstarter.task.delayinittask;
+package com.plkj.crazydemo.performanceOptimization.tasks.delayinittask;
 
 
 import com.plkj.crazydemo.performanceOptimization.launchstarter.task.MainTask;

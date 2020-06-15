@@ -1,13 +1,12 @@
 package com.plkj.crazydemo.performanceOptimization.net;
 
 
-import com.bumptech.glide.request.RequestListener;
-
+/*import com.facebook.imagepipeline.listener.RequestListener;
+import com.facebook.imagepipeline.request.ImageRequest;
 import java.util.Map;
-
 import javax.annotation.Nullable;
 
-/*public class FrescoTraceListener implements RequestListener {
+public class FrescoTraceListener implements RequestListener {
 
     @Override
     public void onRequestStart(ImageRequest request, Object callerContext, String requestId, boolean isPrefetch) {

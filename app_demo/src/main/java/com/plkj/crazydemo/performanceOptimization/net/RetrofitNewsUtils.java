@@ -1,12 +1,15 @@
 package com.plkj.crazydemo.performanceOptimization.net;
 
 
+import debug.DemoApplication;
 import okhttp3.Cache;
 import okhttp3.OkHttpClient;
+import okhttp3.logging.HttpLoggingInterceptor;
 import retrofit2.Retrofit;
+import retrofit2.converter.fastjson.FastJsonConverterFactory;
 
 public class RetrofitNewsUtils {
-/*    private static final APIService API_SERVICE;
+   private static final APIService API_SERVICE;
 
     public static APIService getApiService() {
         return API_SERVICE;
@@ -18,10 +21,10 @@ public class RetrofitNewsUtils {
         OkHttpClient.Builder client = new OkHttpClient.Builder();
         HttpLoggingInterceptor logging = new HttpLoggingInterceptor();
         logging.setLevel(HttpLoggingInterceptor.Level.BODY);
-        Cache cache = new Cache(PerformanceApp.getApplication().getCacheDir(),10*1024*1024);
+        Cache cache = new Cache(DemoApplication.getApplication().getCacheDir(),10*1024*1024);
         client.
                 eventListenerFactory(OkHttpEventListener.FACTORY).
-                dns(OkHttpDNS.getIns(PerformanceApp.getApplication())).
+                dns(OkHttpDNS.getIns(DemoApplication.getApplication())).
                 addInterceptor(new NoNetInterceptor()).
                 addInterceptor(logging);
 
@@ -31,7 +34,7 @@ public class RetrofitNewsUtils {
                 .client(client.build())
                 .build();
         API_SERVICE = RETROFIT.create(APIService.class);
-    }*/
+    }
 
 
 }

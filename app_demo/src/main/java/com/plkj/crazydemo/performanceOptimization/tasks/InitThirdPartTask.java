@@ -1,4 +1,4 @@
-package com.plkj.crazydemo.performanceOptimization.launchstarter.task;
+package com.plkj.crazydemo.performanceOptimization.tasks;
 
 import com.plkj.crazydemo.performanceOptimization.launchstarter.task.Task;
 

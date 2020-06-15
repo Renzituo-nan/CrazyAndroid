@@ -1,12 +1,18 @@
 package com.plkj.crazydemo.performanceOptimization.aop;
 
-import com.blankj.utilcode.util.LogUtils;
+
+import com.plkj.crazydemo.performanceOptimization.utils.LogUtils;
+
+import org.aspectj.lang.ProceedingJoinPoint;
+import org.aspectj.lang.Signature;
+import org.aspectj.lang.annotation.Around;
+import org.aspectj.lang.annotation.Aspect;
 
 /**
  * Created by Renzituo
  * on 2020-06-15
  */
-/*@Aspect
+@Aspect
 public class PerformanceAop {
 
     @Around("call(* debug.DemoApplication.**(..))")
@@ -34,4 +40,4 @@ public class PerformanceAop {
         }
         LogUtils.i(name + " cost " + (System.currentTimeMillis() - time));
     }
-}*/
+}

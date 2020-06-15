@@ -5,7 +5,9 @@
 ext.deps = [:]
 
 def versions = [:]
-versions.android_gradle_plugin = "3.6.3"
+
+//使用3.6.2将会与Top性能优化演示的依赖框架冲突，造成编译异常：Cannot cast object 'com.android.build.gradle.internal.pipeline......
+versions.android_gradle_plugin = "3.5.2"
 versions.kotlinPlugin = "1.3.72"
 versions.kotlin = "1.1.51"
 versions.support = "27.0.2"

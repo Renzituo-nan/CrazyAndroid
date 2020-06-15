@@ -9,9 +9,10 @@ import android.view.ViewTreeObserver;
 import android.widget.ImageView;
 
 import com.plkj.crazydemo.performanceOptimization.utils.LogUtils;
+import com.taobao.android.dexposed.XC_MethodHook;
 
 
-/*public class ImageHook extends XC_MethodHook {
+public class ImageHook extends XC_MethodHook {
 
     @Override
     protected void afterHookedMethod(MethodHookParam param) throws Throwable {
@@ -68,4 +69,4 @@ import com.plkj.crazydemo.performanceOptimization.utils.LogUtils;
         LogUtils.i(warnInfo);
     }
 
-}*/
+}
