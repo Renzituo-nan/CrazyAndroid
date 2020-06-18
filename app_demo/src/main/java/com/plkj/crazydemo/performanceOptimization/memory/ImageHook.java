@@ -36,7 +36,7 @@ public class ImageHook extends XC_MethodHook {
                             && bitmap.getHeight() >= (height << 1)) {
                         warn(bitmap.getWidth(), bitmap.getHeight(), width, height, new RuntimeException("Bitmap size too large"));
                     }
-                } else {
+                } else {//说明尚未绘制
                     final Throwable stackTrace = new RuntimeException();
                     view.getViewTreeObserver().addOnPreDrawListener(new ViewTreeObserver.OnPreDrawListener() {
                         @Override

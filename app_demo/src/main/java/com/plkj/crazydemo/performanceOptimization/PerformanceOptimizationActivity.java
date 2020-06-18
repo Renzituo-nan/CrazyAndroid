@@ -1,5 +1,6 @@
 package com.plkj.crazydemo.performanceOptimization;
 
+import androidx.core.app.ActivityCompat;
 import androidx.core.view.LayoutInflaterCompat;
 import androidx.recyclerview.widget.RecyclerView;
 import butterknife.BindView;
@@ -8,18 +9,28 @@ import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
 
+import android.Manifest;
 import android.annotation.TargetApi;
 import android.app.job.JobInfo;
 import android.app.job.JobScheduler;
+import android.app.usage.NetworkStats;
+import android.app.usage.NetworkStatsManager;
 import android.content.ComponentName;
 import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
+import android.content.pm.PackageInfo;
+import android.content.pm.PackageManager;
+import android.net.NetworkCapabilities;
+import android.net.TrafficStats;
 import android.os.BatteryManager;
 import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Process;
+import android.os.RemoteException;
+import android.telecom.TelecomManager;
+import android.telephony.TelephonyManager;
 import android.text.TextUtils;
 import android.util.AttributeSet;
 import android.util.Log;
@@ -276,5 +287,55 @@ public class PerformanceOptimizationActivity extends BaseActivity implements OnF
     public void onWindowFocusChanged(boolean hasFocus) {
         super.onWindowFocusChanged(hasFocus);
         LaunchTimer.endRecord("onWindowFocusChanged");
+    }
+
+    /**
+     * 获取流量消耗情况
+     */
+    private void getNetStats() {
+        if (Build.VERSION.SDK_INT < Build.VERSION_CODES.M) {
+            return;
+        }
+        long netDataRx = 0;//接收
+        long netDataTx = 0;//发送
+        TelephonyManager telephonyManager = (TelephonyManager) getSystemService(Context.TELEPHONY_SERVICE);
+        if (ActivityCompat.checkSelfPermission(this, Manifest.permission.READ_PHONE_STATE) != PackageManager.PERMISSION_GRANTED) {
+            // TODO: Consider calling
+            //    ActivityCompat#requestPermissions
+            // here to request the missing permissions, and then overriding
+            //   public void onRequestPermissionsResult(int requestCode, String[] permissions,
+            //                                          int[] grantResults)
+            // to handle the case where the user grants the permission. See the documentation
+            // for ActivityCompat#requestPermissions for more details.
+            return;
+        }
+        String subscriberId = telephonyManager.getSubscriberId();
+        NetworkStatsManager networkStatsManager = (NetworkStatsManager) getSystemService(Context.NETWORK_STATS_SERVICE);
+        NetworkStats networkStats = null;
+        NetworkStats.Bucket bucket = new NetworkStats.Bucket();
+        try {
+            networkStats = networkStatsManager.querySummary(NetworkCapabilities.TRANSPORT_WIFI,
+                    subscriberId, 1, System.currentTimeMillis());
+            while (networkStats.hasNextBucket()) {
+                networkStats.getNextBucket(bucket);
+                int uid = bucket.getUid();
+                if (getUidByPackageName()==uid) {
+                    netDataRx += bucket.getRxBytes();
+                    netDataTx += bucket.getTxBytes();
+                }
+            }
+            LogUtils.i("AppNetUse"+(netDataRx+netDataTx));
+        } catch (RemoteException e) {
+            e.printStackTrace();
+        }
+
+    }
+
+    private int getUidByPackageName() {
+        int uid = -1;
+        PackageManager packageManager = PerformanceOptimizationActivity.this.getPackageManager();
+        PackageInfo packageInfo = packageManager.getPackageArchiveInfo(null,0);
+        uid = packageInfo.applicationInfo.uid;
+        return uid;
     }
 }

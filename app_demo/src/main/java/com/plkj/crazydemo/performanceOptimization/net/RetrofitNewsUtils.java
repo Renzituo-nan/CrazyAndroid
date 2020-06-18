@@ -22,11 +22,12 @@ public class RetrofitNewsUtils {
         HttpLoggingInterceptor logging = new HttpLoggingInterceptor();
         logging.setLevel(HttpLoggingInterceptor.Level.BODY);
         Cache cache = new Cache(DemoApplication.getApplication().getCacheDir(),10*1024*1024);
-        client.
-                eventListenerFactory(OkHttpEventListener.FACTORY).
-                dns(OkHttpDNS.getIns(DemoApplication.getApplication())).
-                addInterceptor(new NoNetInterceptor()).
-                addInterceptor(logging);
+        client
+//                .cache(cache)//设置缓存
+                .eventListenerFactory(OkHttpEventListener.FACTORY)//网络请求监控质量
+                .dns(OkHttpDNS.getIns(DemoApplication.getApplication()))
+                .addInterceptor(new NoNetInterceptor())
+                .addInterceptor(logging);
 
         final Retrofit RETROFIT = new Retrofit.Builder()
                 .baseUrl(HTTP_SPORTSNBA_QQ_COM)
