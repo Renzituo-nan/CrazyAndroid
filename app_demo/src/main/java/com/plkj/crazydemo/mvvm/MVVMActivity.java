@@ -4,9 +4,11 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.databinding.DataBindingUtil;
 
 import android.os.Bundle;
+import android.view.ViewGroup;
 
 
 import com.plkj.crazydemo.R;
+import com.plkj.crazydemo.contract.HelperContract;
 import com.plkj.crazydemo.databinding.ActivityMvvmBinding;
 
 
@@ -30,5 +32,6 @@ public class MVVMActivity extends AppCompatActivity {
         ActivityMvvmBinding binding = DataBindingUtil.setContentView(this, R.layout.activity_mvvm);
         MVVMViewModel mvvmViewModel = new MVVMViewModel(getApplication(), binding);
         binding.setMvvmModel(mvvmViewModel);
+
     }
 }

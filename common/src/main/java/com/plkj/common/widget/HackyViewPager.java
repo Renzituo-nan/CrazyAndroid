@@ -29,4 +29,7 @@ public class HackyViewPager extends ViewPager {
         }
         return false;
     }
+
+
+
 }
